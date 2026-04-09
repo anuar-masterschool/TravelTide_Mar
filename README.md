@@ -12,7 +12,7 @@ TODO
 
 
 ## Setup:
-1. Install dependencies
+1. Install dependencies (requirements.txt)
 2. In data/tables_filtering.sql use the data string and run the 4 queries and save the results in data/raw as hotels_raw.csv, users_raw.csv ...
 3. Run notebooks in order
 
