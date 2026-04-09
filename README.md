@@ -8,8 +8,41 @@ Short summary of the project.
 
 
 ## Structure:
-TODO
-
+```
+├── data
+│   ├── groups
+│   │   ├── family_traveler.csv
+│   │   ├── low_income.csv
+│   │   ├── luxus.csv
+│   │   ├── no_bookers_group.csv
+│   │   ├── overcarriers.csv
+│   │   ├── seniors.csv
+│   │   ├── singles.csv
+│   │   └── young.csv
+│   ├── processed
+│   │   ├── hotels_pocessed.csv
+│   │   ├── user_features.csv
+│   │   └── users_no_group.csv
+│   ├── raw
+│   │   ├── flights_raw.csv
+│   │   ├── hotels_raw.csv
+│   │   ├── sessions_raw.csv
+│   │   └── users_raw.csv
+│   └── tables_filtering.sql
+├── notebooks
+│   ├── 1_EDA.ipynb
+│   ├── 2_users_feature_engineering.ipynb
+│   ├── 3_user_segmentation.ipynb
+│   ├── 4_ml_clustering.ipynb
+│   └── 5_result.ipynb
+├── README.md
+├── requirements.txt
+└── results
+    ├── excecutive_summary.pdf
+    ├── fig
+    │   └── pairplot_analysis.png
+    └── users_with_groups.csv
+```
 
 ## Setup:
 1. Install dependencies (requirements.txt)

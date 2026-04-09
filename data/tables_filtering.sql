@@ -1,4 +1,4 @@
-/* Data string postgres://Test:bQNxVzJL4g6u@ep-noisy-flower-846766.us-east-2.aws.neon.tech/TravelTide*/
+/* Data string postgres://Test:bQNxVzJL4g6u@ep-noisy-flower-846766.us-east-2.aws.neon.tech/TravelTide */
 
 /* Filtering of sessions table */
 with active_users as
