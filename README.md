@@ -17,5 +17,5 @@ TODO
 3. Run notebooks in order
 
 ## Notebooks description:
-- 1_EDA.ipynb: 
+- 1_EDA.ipynb:  
 
