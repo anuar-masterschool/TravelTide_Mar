@@ -1,5 +1,5 @@
-/data/flights.csv
+/data/raw/flights_raw.csv
 /data/raw/hotels_raw.csv
-/data/sessions.csv
-/data/users.csv
+/data/raw/sessions_raw.csv
+/data/raw/users_raw.csv
 /data/raw/hotels.csv

@@ -1,3 +1,5 @@
+/* Data string postgres://Test:bQNxVzJL4g6u@ep-noisy-flower-846766.us-east-2.aws.neon.tech/TravelTide*/
+
 /* Filtering of sessions table */
 with active_users as
     (select user_id, count(session_id) as total_session from sessions where session_start >= '2023-01-05' group by user_id having count(session_id) > 7)
